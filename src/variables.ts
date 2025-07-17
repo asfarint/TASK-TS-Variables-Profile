@@ -9,12 +9,11 @@
  * 5. image         -> assign it a value of a url of your image or ant image that represents you online
  */
 
-let fullName: string;
-let yearOfBirth: number;
-let hobby: string;
-let funFact: string;
-let image: string;
-
+let fullName: string = "Yousef Alhajri"
+let yearOfBirth: number = 1987
+let hobby: string = "coding and cycling";
+let funFact: string = "I like cooking"
+let image: string = "https//images.app.goo.gl/Hy6wEW8je4V61Jsq7" 
 /**
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
@@ -25,10 +24,9 @@ let image: string;
  * 3. hobbyString         -> assign it: "My hobby is {YOUR_HOBBY}""
  */
 
-let fullNameString: string;
-let ageString: string;
-let hobbyString: string;
-
+let fullNameString: string = ` My Name is ${fullName}`;
+let ageString: string = ` I am ${2025 - yearOfBirth}`;
+let hobbyString: string = `My hobby is ${hobby}`; 
 /**
  * Part 3: Re-assignment
  * Increment your hacker score
@@ -36,17 +34,17 @@ let hobbyString: string;
 
 let hackerScore = 0;
 
-function incrementBy1() {
+function incrementBy1() {hackerScore +=1;
   // Increment hackerScore by 1 👇🏻
 }
-function decrementBy1() {
+function decrementBy1() { hackerScore -=1;
   // decrement hackerScore by 1 👇🏻
 }
 
-function incrementBy2() {
+function incrementBy2() { hackerScore +=2;
   // Increment hackerScore by 2 👇🏻
 }
-function decrementBy2() {
+function decrementBy2() {hackerScore -=2;
   // decrement hackerScore by 2 👇🏻
 }
 
